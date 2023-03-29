@@ -8,6 +8,11 @@
 * Java
 * Docker
 * Kubernetes
+* Python
+
+### Prerequisites
+* minikube
+* kubectl
 
 ## Quick start
 
@@ -22,6 +27,10 @@ git clone git@github.com:Swoyam1/Java-Project.git
 ```
 cd "task-path"
 docker-compose build
+```
+
+```
+kubectl apply -f deployment.yml
 ```
 
 The project includes a ``web`` service, running the Java code, and a ``db`` service, running a MongoDB database.
