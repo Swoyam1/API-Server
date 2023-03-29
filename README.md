@@ -29,10 +29,6 @@ cd "task-path"
 docker-compose build
 ```
 
-```
-kubectl apply -f deployment.yml
-```
-
 The project includes a ``web`` service, running the Java code, and a ``db`` service, running a MongoDB database.
 See the ``docker-compose.yml`` file for details.
 
