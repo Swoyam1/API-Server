@@ -24,6 +24,7 @@ git clone git@github.com:Swoyam1/Java-Project.git
 
 ### Build the project
 
+* Docker
 ```
 cd "task-path"
 docker-compose build
@@ -40,7 +41,6 @@ docker-compose up
 
 Containers for both services will be launched. The project can be reached at http://localhost:8000.
 
-
 ## How to
 
 ### Run the local project on a different port
@@ -56,7 +56,10 @@ services:
       - 8000:8080
 ```
 
-
+* K8s
+```
+kubectl apply -f deployment.yml
+```
 
 ### External how-to guides
 
